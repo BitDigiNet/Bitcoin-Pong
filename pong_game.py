@@ -21,10 +21,9 @@ DARK_GRAY = (50, 50, 50)
 RED = (255, 0, 0)  # Define the RED color properly
 
 # Paddle and Ball settings
-PADDLE_WIDTH = 10
-PADDLE_HEIGHT = int(100 * 0.7)  # Reduce paddle height by 30%
+PADDLE_WIDTH, PADDLE_HEIGHT = 10, 100
 BALL_RADIUS = 7
-paddle_speed = int(7 * 1.25)  # Increase paddle speed by 25%
+paddle_speed = 7
 base_ball_speed = 7
 
 # Initialize player paddles and ball
